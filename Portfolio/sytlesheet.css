@@ -1,0 +1,118 @@
+body{
+    background-color: #faf4db;
+    color: #000000;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+nav>a{
+    padding: 1rem;
+    font-weight: 800;
+    display: inline-block;
+    margin: 1rem 1rem 1rem 0;
+}
+
+header{
+    padding:1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    max-width:130px;
+}
+
+#about{
+    display: flex;
+    margin-right: 5rem;
+    background-color: #decf97;
+       
+}
+
+#about_words{
+    margin-left: 5rem;
+    margin-right:1rem;
+}
+#subsec{
+    padding-top: 1rem;
+    padding-bottom:2rem;
+}
+
+#pic0{
+    max-height: 400px;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+#pic1{
+    max-height: 250px;
+    padding:.5rem;
+}
+#pic2{
+    max-height: 300px;
+    padding:.5rem;
+}
+#pic3{
+    max-height: 300px;
+    padding:.5rem;
+}
+
+#pics{
+    display: inline-block;
+}
+#gallery{
+    margin-left:5rem;
+}
+
+#contact{
+    background-color: #decf97;
+    display: block;
+    text-align: center;
+    margin-left: 5rem;
+    padding:1rem;
+}
+
+/* 1185px is where it needs to change */
+
+@media(max-width:1000px){
+    #about{
+        display: block;
+        background-color:transparent;
+        margin: initial;
+    }
+
+    #about_words{
+        margin-left: 5rem;
+        margin-right:1rem;
+        background-color: #decf97;
+        padding-left: 1rem;
+        padding-top: .5rem;
+    }
+
+    #pic0{
+        max-height: 400px;
+        padding-left: 2rem;
+        padding-right: 3rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        background-color: #decf97;
+        margin: 1rem;
+    }
+    #pics{
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    #pic1{
+        max-height: 350px;
+
+    }
+    #pic2{
+        max-height: 250px;
+    }
+    #pic3{
+        max-height:250px;
+    }
+}
